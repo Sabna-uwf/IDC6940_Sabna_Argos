@@ -34,7 +34,7 @@ Nice report!
 
 ## Introduction
 
-## we are planning to see how to develop the project. Like:
+## we are still in the planning phase:
 
 #1. Whether to do comparitive analysis using just 2 cnn architectures or include more.
 
