@@ -38,7 +38,7 @@ The aim of this study is to conduct a comparative analysis of the performance of
 Similarly, Awan et al. (2021) utilize a deep learning approach to investigate the efficient detection of knee ACL injuries from MRI data. In their analysis, they demonstrate how optimized CNN architectures account for variation in regional joint data, proving that deep learning provides both the flexibility and tractability required for reliable medical classification.
 This study investigates the potential for automated diagnostics in sports medicine, with a particular focus on the accurate classification of ACL injuries. To analyze these risks, we will apply a DenseNet-based 3D model, a robust computational method suited for complex, hierarchical medical volumes. Our goal is to examine the relationship between the visual features of the knee joint specifically within the Region of Interest (ROI) and the three-way classification of ACL health: normal, partial tear, and complete rupture.
 
-
+#week 1: 
 
 ## Methods
 
