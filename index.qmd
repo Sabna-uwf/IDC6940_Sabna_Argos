@@ -46,17 +46,6 @@ Similarly,  [@javed2021efficient] utilize a deep learning approach to investigat
 This study investigates the potential for diagnosis of knee pathologies particularly focusing on the accurate classification of ACL injuries. To analyze these risks, we will apply  different cnn models which can be used for complex data.  
 
 
-## Literature review:
-
-1.	Awan, M. J., Rahim, M. S. M., Salim, N., Mohammed, M. A., Garcia-Zapirain, B., & Abdulkareem, K. H. (2021). Efficient detection of knee anterior cruciate ligament from magnetic resonance imaging using deep learning approach. Diagnostics, 11(1), 105. https://doi.org/10.3390/diagnostics11010105
-
-This study presents an automated deep learning system to detect anterior cruciate ligament (ACL) injuries from magnetic resonance imaging (MRI) scans of the knee. ACL injuries are common in athletes, particularly in sports like football, basketball, and soccer. The goal of the research was to create an efficient method to detect ACL injuries at an early stage without the need for radiologists, using a customized 14-layer ResNet-14 convolutional neural network (CNN) architecture. The performance of the ResNet-14 model was evaluated using metrics such as accuracy, sensitivity, specificity, precision, and F1 score, with results of 92.0%, 91.6%, 94.6%, 91.6%, and 92.3%, respectively. The model achieved exceptional Area Under the Curve (AUC) values for each class of ACL injury: 0.980 for healthy, 0.970 for partial tear, and 0.999 for fully ruptured tear. The results indicate that this model is highly effective in detecting and classifying ACL injuries, distinguishing between healthy knees, partial tears, and fully ruptured ACLs. The system provides an automated and accurate alternative to manual evaluation by radiologists, making it a promising tool for early ACL injury diagnosis in athletes.
-
-
-2.	Wang, X., Wu, Y., Li, J., Li, Y., & Xu, S. (2024). Deep learning-assisted automatic diagnosis of anterior cruciate ligament tear in knee magnetic resonance images. Tomography, 10(8), 1263-1276. https://doi.org/10.3390/tomography10080094
-
-This study focuses on developing a deep learning model for the automatic detection of anterior cruciate ligament (ACL) tears from knee magnetic resonance imaging (MRI) scans.  The model was tested on a publicly available MRNet dataset that includes 1,250 knee MRI exams across three distinct views: axial, coronal, and sagittal. The experimental results showed that SGNET outperforms other models in ACL tear detection, achieving: Accuracy: 92.50%, Sensitivity: 92.59%, Specificity: 92.42%, AUC (Area Under Curve): 0.9747. The study highlights the potential of SGNET as a reliable diagnostic tool for detecting ACL injuries. The model's ability to accurately identify ACL tears could reduce the misdiagnosis rate and support clinicians in streamlining the diagnostic process, improving the overall efficiency and accuracy of ACL injury assessments.
-
 ## Methods
 
 -   Detail the models or algorithms used.
