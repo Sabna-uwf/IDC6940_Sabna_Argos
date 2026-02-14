@@ -86,18 +86,47 @@ $$
 
 
 ### Modeling and Results
+Dataset Description – MRNet v1.0
 
--   Explain your data preprocessing and cleaning steps.
+For automated knee MRI diagnosis, we use the MRNet v1.0 dataset released by the Stanford Machine Learning Group**. The dataset contains knee magnetic resonance imaging (MRI) examinations collected at Stanford University Medical Center. It was introduced to support research in deep learning–based detection of common knee injuries.
 
--   Present your key findings in a clear and concise manner.
+The dataset consists of 1,370 knee MRI exams performed on different patients. Each exam includes multiple MRI slices captured in three anatomical planes: axial, coronal, and sagittal. For every exam, labels are provided for three diagnostic tasks:
 
--   Use visuals to support your claims.
+Abnormality detection
 
--   **Tell a story about what the data reveals.**
+ACL (Anterior Cruciate Ligament) tear detection
 
-```{r}
+Meniscal tear detection
 
-```
+The labels were extracted from radiology reports and reviewed for research purposes. The dataset is widely used as a benchmark for medical image classification and multi-label learning tasks.
+
+The dataset is typically split into:
+Training set: 1,130 exams
+
+Validation set: 120 exams
+
+Test set: 120 exams (held-out for evaluation in the original competition)
+
+Data Definition
+
+Unlike transactional datasets, MRNet is an exam-level medical imaging dataset. The data is organized as image volumes rather than tabular transaction records.
+
+Attribute	Type	Description
+Study ID	Nominal	Unique identifier assigned to each MRI exam
+Plane	Nominal	MRI acquisition plane (Axial, Coronal, Sagittal)
+Image Slices	Image Sequence	Stack of 2D grayscale MRI slices forming a 3D volume
+Abnormal	Binary (0/1)	Indicates presence of any abnormality
+ACL Tear	Binary (0/1)	Indicates presence of ACL tear
+Meniscal Tear	Binary (0/1)	Indicates presence of meniscal tear
+
+Each study contains:
+
+Variable number of slices (typically 20–60 per plane)
+
+Grayscale images
+
+Stored in .npy format (NumPy arrays)
+
 
 ### Conclusion
 
